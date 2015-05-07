@@ -4,7 +4,7 @@ var randomized =  allColors.slice(0).sort(function() {
   return .5 - Math.random();
 });
 
-var solution = randomized.slice(0, 4)
+var solution = randomized.slice(0, 4) //what the hell was i thinking?//
 
 function score(button) {
 	var guess = [];
@@ -56,6 +56,6 @@ function score(button) {
 	resultTd.textContent = result;
 
 	if (result == "XXXX") {
-		alert("Hey, you won!");
+		alert("Hey, you just won!");
 	}
 }
