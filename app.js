@@ -56,6 +56,6 @@ function score(button) {
 	resultTd.textContent = result;
 
 	if (result == "XXXX") {
-		alert("Hey, you just won!");
+		alert("Hey, you just won! Try playing again.");
 	}
 }
